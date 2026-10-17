@@ -1,6 +1,6 @@
 # Leg-Length Scaling in Galloping Quadrupedal Robots
 ## Video
-https://github.com/user-attachments/assets/39a2c1fa-ac84-47f5-ab77-56e17a2e829e
+https://github.com/user-attachments/assets/ca18ce49-9884-41c2-9412-c089eae9d4f1
 
 ## Overview
 This repository contains the code used to formulate a nonlinear programming (NLP) problem designed to identify different leg-scaling configurations for the A1 quadrupedal robot using a galloping gait. The optimization code leverages the Fast Robot Optimization and Simulation (FROST) toolkit (https://github.com/ayonga/frost-dev). The optimization code used in this project (which includes the FROST framework) is available at:
