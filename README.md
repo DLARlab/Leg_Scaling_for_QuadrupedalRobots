@@ -8,9 +8,9 @@ This repository contains the code used to formulate a nonlinear programming (NLP
 *This is research code—subject to frequent updates—and is provided without any warranty regarding its fitness for any particular purpose.
 **The source code is released under a BSD 3-Clause license.
 
-**Author: Yasser G. Alqaham, Jing Cheng, Rohit K. Jakkula, and Zhenyu Gan />
+**Author: Yasser G. Alqaham, Jing Cheng, Rohit K. Jakkula, and Zhenyu Gan<br />
 Affiliation: [DLAR Lab](https://dlarlab.syr.edu)<br />
-Maintainer: Yasser G. Alqaham, ygalqaha@syr.edu />** 
+Maintainer: Yasser G. Alqaham, ygalqaha@syr.edu />**
 With contributions by: Jing Cheng, Rohit K. Jakkula, and Zhenyu Gan.
 
 <img width="1920" height="1703" alt="Figure___1" src="https://github.com/user-attachments/assets/fba84e39-6f03-4d6e-bf49-7658853b0077" />
