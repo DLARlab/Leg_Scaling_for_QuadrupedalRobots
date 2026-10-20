@@ -3,37 +3,19 @@
 https://github.com/user-attachments/assets/ca18ce49-9884-41c2-9412-c089eae9d4f1
 
 ## Overview
-This repository contains the code used to formulate a nonlinear programming (NLP) problem designed to identify different leg-scaling configurations for the A1 quadrupedal robot using a galloping gait. The optimization code leverages the Fast Robot Optimization and Simulation (FROST) toolkit (https://github.com/ayonga/frost-dev). The optimization code used in this project (which includes the FROST framework) is available at:
-
-**optimization:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-807B/README.md
-
-Additionally, this repository conduct simulation tests of the A1 robot in the Gazebo environment, which employs a Quadratic Programming (QP)-based locomotion controller. The considered scaling cases are: nominal leg length(Repository:norminal); uniform leg scaling with a proportional factor of 0.50(Repository:scale0.50)' uniform leg scaling with a proportional factor of 0.75(Repository:scale0.75); uniform leg scaling with a proportional factor of 1.25(Repository:scale1.25); axial elongation scaling with a factor of 0.75(Repository:scale0.75AE); axial elongation scaling with a factor of 1.25(Repository:scale1.25AE); and axial elongation scaling with a factor of 1.50(Repository:scale1.50AE) 
-
-*All scaling cases are provided in the following repositories:*
-
-**nominal:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-F2D0/README.md
-
-**scale0.50:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-4372/README.md
-
-**scale0.75:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-2200/README.md
-
-**scale1.25:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-710A/README.md
-
-**scale0.75AE:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-186E/README.md
-
-**scale1.25AE:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-4EF0/README.md
-
-**scale1.50AE:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-B5A2/README.md
-
-Furthermore, this repository includes simulation experiments for the Go1 robot using a locomotion controller trained with reinforcement learning in the CAJun framework ([https://github.com/yxyang/cajun/](https://github.com/yxyang/cajun/)). The experiments evaluate the effect of leg-length scaling under three configurations: nominal leg length, uniform scaling with a factor of 0.75, and uniform scaling with a factor of 1.25.
-
-**RL:** https://anonymous.4open.science/r/LegLength_Scaling_for_QuadrupedalRobots-DD04/README.md
+This repository contains the code used to formulate a nonlinear programming (NLP) problem designed to identify different leg-scaling configurations for the A1 quadrupedal robot using a galloping gait. The optimization code leverages the Fast Robot Optimization and Simulation (FROST) toolkit (https://github.com/ayonga/frost-dev). Additionally, this repository conduct simulation tests of the A1 robot in the Gazebo environment, which employs a Quadratic Programming (QP)-based locomotion controller. The considered scaling cases are: nominal leg length, uniform leg scaling with a proportional factor of 0.50, uniform leg scaling with a proportional factor of 0.75, uniform leg scaling with a proportional factor of 1.25, axial elongation scaling with a factor of 0.75, axial elongation scaling with a factor of 1.25, and axial elongation scaling with a factor of 1.50. Furthermore, this repository includes simulation experiments for the Go1 robot using a locomotion controller trained with reinforcement learning in the CAJun framework ([https://github.com/yxyang/cajun/](https://github.com/yxyang/cajun/)). The experiments evaluate the effect of leg-length scaling under three configurations: nominal leg length, uniform scaling with a factor of 0.75, and uniform scaling with a factor of 1.25.
 
 *This is research code—subject to frequent updates—and is provided without any warranty regarding its fitness for any particular purpose.
 **The source code is released under a BSD 3-Clause license.
 
+Author: Yasser G. Alqaham, Jing Cheng, Rohit K. Jakkula, and Zhenyu Gan
+Affiliation: DLAR Lab
+Maintainer: Yasser G. Alqaham, ygalqaha@syr.edu /> With contributions by: Jing Cheng, Rohit K. Jakkula, and Zhenyu Gan.
+
+<img width="1920" height="1703" alt="Figure___1" src="https://github.com/user-attachments/assets/fba84e39-6f03-4d6e-bf49-7658853b0077" />
+
 ## Publications
-This work has been submitted to the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026).
+This work has been accepted to the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026).
 
 ## Optimization Requirements
 ### Environment
